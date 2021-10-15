@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Extract Here
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=application/x-*;application/gzip;application/java-archive;application/vnd.android.package-archive;application/vnd.debian.binary-package;application/vnd.ms-cab-compressed;application/zip;application/zstd
+X-KDE-Priority=TopLevel
+Actions=extract
+
+[Desktop Action extract]
+Name=Extract Here
+Icon=archive-extract
+Exec=ark -ba %u
