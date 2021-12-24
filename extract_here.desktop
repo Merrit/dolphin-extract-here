@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Extract Here
 Name[nl]=Hier uitpakken
+Name[ru]=Распаковать сюда
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=application/x-*;application/gzip;application/java-archive;application/vnd.android.package-archive;application/vnd.debian.binary-package;application/vnd.ms-cab-compressed;application/x-xz;application/zip;application/zstd
@@ -10,5 +11,6 @@ Actions=extract
 [Desktop Action extract]
 Name=Extract Here
 Name[nl]=Hier uitpakken
+Name[ru]=Распаковать сюда
 Icon=archive-extract
 Exec=ark -ba %u
