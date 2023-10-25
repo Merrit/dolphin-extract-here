@@ -3,7 +3,7 @@ Name=Extract Here
 Name[nl]=Hier uitpakken
 Name[ru]=Распаковать сюда
 Name[de]=Hier entpacken
-Name=[it]=Estrai qui
+Name[it]=Estrai qui
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=application/x-*;application/gzip;application/java-archive;application/vnd.android.package-archive;application/vnd.debian.binary-package;application/vnd.ms-cab-compressed;application/x-xz;application/zip;application/zstd;application/x-7z-compressed
