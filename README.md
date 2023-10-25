@@ -7,3 +7,9 @@ prevent an archive dumping a ton of files into the current directory.
 ![Context menu screenshot](screenshots/context_menu_screenshot.png)
 
 ![Extracted screenshot](screenshots/extracted.png)
+
+
+## Download
+
+<a href="https://store.kde.org/p/1617564"><img alt="Download from the KDE Store" height="50px"
+src="https://img.shields.io/badge/KDE_Store-blue?style=for-the-badge&logo=kde"></a>
