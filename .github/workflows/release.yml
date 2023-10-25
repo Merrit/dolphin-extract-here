@@ -1,0 +1,35 @@
+# Create a new release
+
+name: Release
+
+on:
+  # Build & deploy for tag events matching v*, i.e. v1.0.0, v20.15.10
+  push:
+    tags:
+      - "v*"
+
+concurrency:
+  group: ci-release-${{ github.ref }}-1
+  cancel-in-progress: true
+
+jobs:
+  release:
+    name: "Release"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Upload artifacts to workflow
+        uses: actions/upload-artifact@v3
+        with:
+          path: extract_here.desktop
+  
+      - name: Create Draft Release & Upload artifacts
+        uses: marvinpinto/action-automatic-releases@v1.2.1
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          draft: true
+          prerelease: false
+          files: |
+            extract_here.desktop
