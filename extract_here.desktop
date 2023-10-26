@@ -1,9 +1,9 @@
 [Desktop Entry]
 Name=Extract Here
-Name[nl]=Hier uitpakken
-Name[ru]=Распаковать сюда
 Name[de]=Hier entpacken
 Name[it]=Estrai qui
+Name[nl]=Hier uitpakken
+Name[ru]=Распаковать сюда
 Name[sk]=Rozbaliť tu
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
@@ -13,10 +13,10 @@ Actions=extract
 
 [Desktop Action extract]
 Name=Extract Here
-Name[nl]=Hier uitpakken
-Name[ru]=Распаковать сюда
 Name[de]=Hier entpacken
 Name[it]=Estrai qui
+Name[nl]=Hier uitpakken
+Name[ru]=Распаковать сюда
 Name[sk]=Rozbaliť tu
 Icon=archive-extract
 Exec=ark -ba %u
